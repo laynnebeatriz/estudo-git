@@ -1,0 +1,36 @@
+git init: Inicializa um novo repositório Git em um diretório.
+Exemplo: mkdir meu-projeto
+cd meu-projeto
+git init
+
+git clone: Cria uma cópia local de um repositório remoto.
+
+git add: Adiciona modificações de arquivos à área de staging, preparando-as para o commit.
+Exemplo: git add comandos-git.txt
+
+git commit: Cria um snapshot das alterações staged, armazenando-as no histórico do projeto.
+Exemplo: git commit -m "Primeira commit"
+
+git status: Mostra o status atual do seu repositório, incluindo arquivos modificados, não rastreados e alterações staged.
+
+git log: Exibe o histórico de commits.
+
+git diff: Mostra as diferenças entre os commits ou entre um commit e o arquivo trabalhado.
+
+Gerenciando Branches
+git branch: Lista todas as branches locais.
+git checkout: Alterna entre branches.
+git branch -b <nome_da_branch>: Cria uma nova branch.
+git merge: Mescla uma branch em outra.
+
+Interagindo com Repositórios Remotos
+git remote: Gerencia repositórios remotos.
+git remote add <nome> <url>: Adiciona um novo repositório remoto.
+git push <nome> <branch>: Envia as alterações locais para um repositório remoto.
+git pull: Baixa as alterações de um repositório remoto e as mescla com o seu trabalho local.
+
+Outros Comandos Úteis
+git reset: Desfaz as últimas alterações.
+git revert: Desfaz um commit específico.
+git tag: Cria tags para marcar pontos específicos no histórico.
+git stash: Temporariamente guarda as alterações não commitadas.
